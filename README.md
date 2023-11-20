@@ -11,36 +11,34 @@ The development of the practice had used:
 - [X] HighCharts and HighMaps: to make visualizations on the dashboard.
 - [X] Xampp, php: for the web server.
 
-## TO DO:
+## Minimum requirements:
 
-
+The top of the board has a bar
+navigation that contains a link with a navbar-brand class for the dashboard title and an href attribute equal to "#", a link to the UIB website and another link to the data source.
+Minimum three visualizations with Highcharts and/or highmaps.
 
 ## Dataset:
 
 https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams
 
-## Introduction
 
-La siguiente práctica consiste en el desarrollo de una aplicación que muestre la información extraida de una base de datos en un panel de datos donde se muestren tres gráficos como mínimo. Se utilizan tecnologías Front-End(Bootstrap, CSS, HTML, Javascript) y Back-End(PHP).
+## Main files
 
-## Ficheros principales
+In this folder you can find the following files:
 
-En esta carpeta se pueden encontrar los siguientes ficheros:
+1. Folder for our own CSS that we have developed simply to give a style to the panel cover letters.
+2. JS folder where we store the self-developed script and a jquery file for the ajax part.
+3. PHP folder that contains the .php file that you have not allowed us to connect to the MySql database and perform the relevant queries.
 
-1. Carpeta para el CSS propio que hemos desarrollado simplemente para darle un estilo a las cartas de presentación del panel.
-2. Carpeta JS donde almacenamos el script desarrollado propio y un archivo jquery para la parte de ajax.
-3. Carpeta PHP que contiene el archivo .php que no has posibilitado conectarnos a la base de datos MySql y realizar las consultar pertinentes.
+We also find several files:
 
-También encontramos varios archivos:
+1. Index.html file, where we have structured the page format.
+2. We have exported the database, called adiiu_data.sql, in case the teachers decide to import directly.
+3. README.md file where we clarify any possible doubts that may exist about the project.
+4. 5-10 minute explanatory video of how the practice works.
+## Details
 
-1. Archivo index.html, donde hemos estructurado el formato de la página.
-2. Hemos exportado la base de datos, llamada datos_adiiu.sql, en caso de que el profesorado decidad hacer el import directamente.
-3. Fichero README.md donde esclarecemos las posibles dudas que puedan haber sobre el proyecto.
-4. Vídeo explicativo de 5-10 minutos de cómo funciona la práctica.
-
-## Detalles
-
-Esta práctica se ha realizado en MAC utilizando MAMP en vez de XAMPP, por lo que algunos parámetros de la conexión a la base de datos podrían varíar.
-En particular, el parámetro "contrasena" podría dar problemas.
-En MAMP: contrasena = "root"
-En XAMPP: contrasena = ""
+This practice has been carried out on MAC using MAMP instead of XAMPP, so some parameters of the connection to the database could vary.
+In particular, the "password" parameter could cause problems.
+In MAMP: password = "root"
+In XAMPP: password = ""
