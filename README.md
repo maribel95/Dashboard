@@ -1,12 +1,25 @@
-## Participantes del proyecto: ODILO FORTES DOMÍNGUEZ Y MARÍA ISABEL CRESPÍ VALERO
+
+The practice consists of creating a data panel (Data Dashboard). This panel
+You would grab the data from a database of your choice in PhPMyAdmin, Xampp. It is an example of
+a distributed web application that has a front-end and a back-end.
+
+The development of the practice had used:
+
+- [X] Bootstrap: to configure the front-end.
+- [X] JavaScript and JQuery: to be able to modify the contents of the DOM of the web page.
+- [X] You can use Ajax from JQuery to extract data from the Apache server files (Xampp) and modify the contents of the DOM of the website based on what was received.
+- [X] HighCharts and HighMaps: to make visualizations on the dashboard.
+- [X] Xampp, php: for the web server.
+
+## TO DO:
+
+
 
 ## Dataset:
 
 https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams
 
-### PRÁCTICA 1 APLICACIONES DISTRIBUIDAS A INTERNET E INTERFICIES DE USUARIO:
-
-## Introducción
+## Introduction
 
 La siguiente práctica consiste en el desarrollo de una aplicación que muestre la información extraida de una base de datos en un panel de datos donde se muestren tres gráficos como mínimo. Se utilizan tecnologías Front-End(Bootstrap, CSS, HTML, Javascript) y Back-End(PHP).
 
