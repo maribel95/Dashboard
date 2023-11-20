@@ -38,7 +38,9 @@ We also find several files:
 4. 5-10 minute explanatory video of how the practice works.
 ## Details
 
-This practice has been carried out on MAC using MAMP instead of XAMPP, so some parameters of the connection to the database could vary.
-In particular, the "password" parameter could cause problems.
-In MAMP: password = "root"
-In XAMPP: password = ""
+<pre>
+  This practice has been carried out on MAC using MAMP instead of XAMPP, so some parameters of the connection to the database could vary.
+  In particular, the "password" parameter could cause problems.
+  In MAMP: password = "root"
+  In XAMPP: password = ""
+</pre>
